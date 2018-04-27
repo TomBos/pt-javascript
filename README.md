@@ -1,7 +1,7 @@
 # pt-javascript
 Placeholder for customized JavaScript
 
-Found this jquery-script, somewhere on PasteBin, have some ideas about it, wanted it to be save...
+Found this jquery-script, somewhere on PasteBin, had some ideas about it, wanted it to be save...
 
 If using PT with EUR or USD, change the first line in the script:
 
