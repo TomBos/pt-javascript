@@ -12,6 +12,7 @@ $currency = '$';
 Use the right currency-character.
 
 From ProfitTrailer:
+
 Available Currencies:
 
 AUD - Australian Dollar
