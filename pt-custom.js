@@ -534,7 +534,7 @@ function estimate() {
 	if ($('#dtDustLogs thead').length > 0) {
 		$('#dtDustLogs tbody tr').each(function() {
 			$(this).find('b').remove();
-			var difference = ($(this).find('td.bought-cost .current-value').text().replace("$", "") - $(this).find('td.bought-cost .bought-cost').text().replace($currency, "")).toFixed(2);
+			var difference = ($(this).find('td.bought-cost .current-value').text().replace($currency, "") - $(this).find('td.bought-cost .bought-cost').text().replace($currency, "")).toFixed(2);
 			var difference2 = ($(this).find('td.blue-color.current-value:first .current-value').text().replace("$", "") - $(this).find('td.blue-color.current-value:first .bought-cost').text().replace($currency, "")).toFixed(8);
 			if (difference2 > 0) {
 				$(this).find('td.bought-cost .bought-cost').append('<b style="color:#05b16f;border-top: 1px solid;"><br>' + $currency + difference + '</b>');
