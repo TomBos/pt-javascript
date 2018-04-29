@@ -2,6 +2,7 @@
 
 Found this jquery-script, somewhere on PasteBin, had some ideas about it, wanted it to be save...
 
+Added feature:
 If using PT with EUR or USD, change the first line in the script:
 
 $currency = '€';
